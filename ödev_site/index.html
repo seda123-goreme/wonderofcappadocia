@@ -1,0 +1,454 @@
+<html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>WONDER OF CAPPADOCIA</title>
+	
+
+	<link rel="stylesheet" href="assets/styles/reset.css" type="text/css" />
+	<link rel="stylesheet" href="assets/styles/custom.css" type="text/css" />
+	<link rel="stylesheet" href="assets/font/font.css" type="text/css" />
+
+	
+	<link rel="stylesheet" href="assets/styles/font-awesome.css" type="text/css" />
+
+	
+	<link rel="stylesheet" href="assets/mobile/media-queries.css" type="text/css" />
+
+	
+	<link rel="Shortcut Icon" href="assets/images/icons/fav_icon.png" type="image/x-icon">
+    
+   
+	<script type="text/javascript" src="assets/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/custom.js"></script>
+
+
+  
+	<script type="text/javascript" src="assets/scripts/jquery-1.10.1.min.js"></script>
+
+	
+	<script type="text/javascript" src="assets/scripts/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	
+	<script type="text/javascript" src="assets/source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="assets/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	
+	<link rel="stylesheet" type="text/css" href="assets/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="assets/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	
+	<link rel="stylesheet" type="text/css" href="assets/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="assets/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	
+	<script type="text/javascript" src="assets/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+
+			$('.fancybox').fancybox();
+
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+		
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.jpg');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+
+	
+</head>
+<body>
+
+
+<div class="top_bg">
+	
+	<div class="ortala">
+		
+		<a href="index.html" class="logo"><img src="assets/images/icons/logo.png" alt="../" width="84" height="100" border="0" /></a>
+		
+		<div class="top_menu">
+			<ul>
+				
+			</ul>
+		</div>
+
+		
+		<div class="social_box">
+			<ul><center><br><br>
+				<li>						   <a href="https://www.google.com/search?q=gmail&oq=gmail&gs_lcrp=EgZjaHJvbWUqDwgAEEUYOxiDARixAxiABDIPCAAQRRg7GIMBGLEDGIAEMgYIARBFGDsyDQgCEAAYgwEYsQMYgAQyDAgDEAAYQxiABBiKBTINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDIGCAYQRRg8MgYIBxBFGEHSAQgxMzY3ajBqNKgCALACAA&sourceid=chrome&ie=UTF-8" target="_blank"><img src="assets/images/icons/gm.png" alt="../" width="34" height="34" border="0" /></a></li>
+				<li>						   <a href="https://twitter.com/"></a><a href="https://www.instagram.com/wonderofcappadociahotel/?hl=tr" target="_blank"><img src="assets/images/icons/ins.png" width="34" height="34" border="0"></a></li>
+				<li style="margin-right: 0px;"><a href="https://www.google.com/travel/search?q=wonder of cappadocia&g2lb=4965990,4969803,72277293,72302247,72317059,72414906,72471280,72472051,72481459,72485658,72549311,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72885032,72946003,72948010,72958594,72958624,72959983,72969407&hl=tr-TR&gl=tr&cs=1&ssta=1&ts=CAEaRwopEicyJTB4MTUyYTY4Nzg1MTEyMTg0MzoweGQ5ZDE5YzkxYWYwNWE3MTkSGhIUCgcI6Q8QBRgVEgcI6Q8QBRgWGAEyAhAA&qs=CAEyFENnc0ltYzZXLUpxUzUtalpBUkFCOAJCCQkZpwWvkZzR2UIJCRmnBa-RnNHZ&ap=ugEGcHJpY2Vz&ictx=111&ved=0CAAQ5JsGahcKEwi497jKtbWNAxUAAAAAHQAAAAAQDg" target="_blank"><img src="assets/images/icons/rv.png" alt="../" width="34" height="34" border="0" /></a></li>
+			</center>
+			</ul>
+	  </div>
+
+		<div class="clear"></div>
+
+		
+	  <div class="menu">
+			<ul>
+				<li><a href="index.html">ANASAYFA</a></li>
+				<li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+				<li>
+					<a href="foto.html">FOTOĞRAFLAR</a>
+					<ul>
+						
+					</ul>
+				</li>
+				<li><a href="turlar.html">TURLAR</a></li>
+				<li><a href="iletisim.html">İLETİŞİM</a></li>
+		</ul>
+			<a href="iletisim.html" class="menu_contact_bg">
+				<h6>Bize Ulaşın</h6>
+				<h1>0531 254 02 45</h1>
+			</a>
+	  </div>
+		<div class="menu_shadow"></div>
+  </div>
+</div>
+
+
+
+<div class="red_bg">
+	
+	<div class="ortala">
+		
+		<div class="slider_generic">
+			
+			<div class="slider">
+				<ul>
+					<li><img src="assets/images/icons/cropped-banner-071.jpg" width="1000" height="313" alt="../" /></li>
+					<li><img src="assets/images/icons/27851984836_f3925592e5_b.jpg" width="959" height="263" alt="../" /></li>
+					<li><img src="assets/images/icons/july-blog-featured-image.jpg" width="959" height="315" alt="../" /></li>
+				</ul>
+			</div>
+
+			
+			<div class="slider_swap">
+				<ul>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="slider_generic_shadow"></div>
+	</div>
+</div>
+
+
+<div class="ortala">
+	
+  <div class="fa-2x">
+		
+		<div class="fa">
+			<h1>HAKKIMIZDA</h1> <div class="clear"></div>
+			<p>&nbsp;</p>
+			<p align="justify"><a class="fancybox" href="assets/images/hakkimizda.png" data-fancybox-group="gallery" title="HAKKIMIZDA"></a>	Göreme’nin oldukça merkezi bir konumunda yer alan Wonder of Cappadocia Hotel, etkileyici manzarası ile tüm dikkatleri üzerine çeken tesislerarasındadır. Bölgenin tarihinden esintilerin bulunduğu konsept odalarıyla alışılmışın dışında bir tatil yapmanız mümkün hale geliyor. Wonder of Cappadocia çatı katında teras olanağı sunar ve Göreme Milli Parkı hedefine sadece yürüme mesafesinde olmanızı sağlar. Ücretsiz avantajlara kablosuz İnternet, vale hizmeti olmayan otopark ve her gün 8 ve 10 arasında alakart kahvaltı dahildir. Teras ve bahçe diğer imkânlar arasındadır.</p>
+			<p align="justify">&nbsp;</p>
+			<p>&nbsp;</p>
+	  </div>
+
+<p align="left">&nbsp;</p>
+		  <p align="left">&nbsp;</p>
+		  <p align="left"><a href="https://www.tripadvisor.com/Hotel_Review-g297983-d19923139-Reviews-Wonder_of_Cappadocia-Goreme_Cappadocia.html" target="_blank"></a><a href="https://www.booking.com/index.en-gb.html?aid=356980&label=gog235jc-1BCAso5AFCFHdvbmRlci1vZi1jYXBwYWRvY2lhSDNYA2jkAYgBAZgBCbgBF8gBDNgBAegBAYgCAagCA7gCp_S9wQbAAgHSAiQ3MjkyNzE2OC03NDUxLTQ2N2ItODczMi0wNTQyNTA4YjkzZDLYAgXgAgE&tr_redirected=1&" target="_blank"></a></p>
+		 
+          <table width="100%" height="1263" border="3" align="center" cellpadding="1" cellspacing="1" bordercolor="#FF0000" lang="en" class="fa-2x">
+            <tr>
+              <td width="31%" height="1083" bordercolor="#FF0000"><p><strong>Otel Özellikleri</strong></p>
+              <p><p><hr></p></p>
+              <p align="center"><img src="assets/images/icons/klm.png" width="40" height="40" align="left"> </p>
+              <p align="center"> Klima<br>
+                <br>
+                <img src="assets/images/icons/kasa.jpg" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Emanet Kasası<br>
+                <br>
+              </p>
+              <p align="left"><img src="assets/images/icons/Ekran görüntüsü 2025-05-22 233117.png" width="40" height="40" align="left"></p>
+              <p align="center">Duş<br>
+                <br>
+                <img src="assets/images/icons/saç.jpg" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Saç K. Makinesi <br>
+                <img src="assets/images/icons/tel.png" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Telefon<br>
+                <img src="assets/images/icons/kahvaltı.jpg" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Kahvaltı<br>
+                <img src="assets/images/icons/resep.jpg" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Resepsiyon<br>
+                <img src="assets/images/icons/tem.png" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Temizlik Hizmeti<br>
+                <img src="assets/images/icons/valiz.png" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Valiz Dolabı<br>
+                <img src="assets/images/icons/wifi.jpg" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Wi-Fi<br>
+                <img src="assets/images/icons/uydu.png" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Uydu Yayını<br>
+                <img src="assets/images/icons/telev.png" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Televizyon<br>
+                <img src="assets/images/icons/park.png" width="40" height="40" align="left"></p>
+              <p align="left">&nbsp;</p>
+              <p align="center">Otopark<br>
+                <img src="assets/images/icons/transfer.png" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Transfer Servisi<br>
+                <img src="assets/images/icons/teras.png" width="40" height="40" align="left"></p>
+              <p align="center">&nbsp;</p>
+              <p align="center">Teras</p></td>
+              <td width="27%" align="left" bordercolor="#FF0000"><p><strong>Rezervasyonlar</strong></p>
+                <p><p><hr></p></p>
+                <p><a href="https://www.obilet.com/otel/wonder-of-cappadocia" target="_blank"><img src="assets/images/icons/images.png" width="170" height="80" border="0"></a></p>
+                <p>&nbsp;</p>
+                <p><a href="https://www.tripadvisor.com/Hotel_Review-g297983-d19923139-Reviews-Wonder_of_Cappadocia-Goreme_Cappadocia.html" target="_blank"><img src="assets/images/icons/download (4).png" width="170" height="80" border="0"></a></p>
+                <p>&nbsp;</p>
+                <p><a href="https://www.booking.com/index.en-gb.html?aid=356980&label=gog235jc-1BCAso5AFCFHdvbmRlci1vZi1jYXBwYWRvY2lhSDNYA2jkAYgBAZgBCbgBF8gBDNgBAegBAYgCAagCA7gCioe-wQbAAgHSAiQwNDM0YTFhOC0yYjVmLTRhOWEtOGQzZS00MGFlYzM3NWU2MTnYAgXgAgE&tr_redirected=1&" target="_blank"><img src="assets/images/icons/download (3).png" width="170" height="80" border="0"></a></p>
+                <p>&nbsp;</p>
+              <p><a href="https://tr.hotels.com/ho1475802016/wonder-of-cappadocia-nevsehir-turkiye/" target="_blank"><img src="assets/images/icons/download (5).png" width="170" height="80" border="0"></a></p>
+              <p><hr></p>
+              <p><iframe frameborder="0" title="Sitene Ekle" width="170" height="500" src="https://www.turizmnews.com/template/prime/addweb.php?kategori=8&limit=10&ozet=0&logo=1"></iframe>
+              </p></td>
+              <td width="13%" bordercolor="#FF0000"><p><strong>Odalar</strong></p>
+              <p><p><hr></p></p>
+              <p><a href="assets/images/3.png" target="_blank">3 Kişilik Oda </a></p>
+              <p>&nbsp;</p>
+              <p><a href="assets/images/sta.png" target="_blank">Standart Oda </a></p>
+              <p>&nbsp;</p>
+              <p><a href="teslim/teslim/1ba42f10.webp" target="_blank">Süit Oda </a></p>
+              <p>&nbsp;</p>
+              <p><a href="teslim/teslim/1f1a1daa.avif" target="_blank">Deluxe Oda Balkon </a></p>
+              <p>&nbsp;</p>
+              <p><a href="teslim/teslim/1ba42f10.webp" target="_blank">Deluxe Tek Büyük Yataklı Oda </a></p>
+              <p>&nbsp;</p>
+              <p><a href="teslim/teslim/4a589ab0.avif" target="_blank">Tek Büyük Yataklı Oda </a></p>
+              <p>&nbsp;</p>
+              <p><a href="teslim/teslim/3f4123a3.avif" target="_blank">Deluxe Oda</a> </p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>              </p></td>
+              <td width="29%" bordercolor="#FF0000"><p align="center"><strong> Yakınındaki Yerler </strong></p>
+              <p><p><hr></p></p>
+              <p><center>
+                <a href="https://www.goreme.bel.tr/" target="_blank"><img src="assets/images/icons/gb.png" width="239" height="101" border="0"></a>
+              </center></p>
+              <p>&nbsp;</p>
+              <p><center>
+                <p><a href="https://nevsehir.jandarma.gov.tr/" target="_blank"><img src="assets/images/icons/jn.png" width="127" height="166" border="0"></a></p>
+                <p>&nbsp;</p>
+                <p><a href="https://www.neredennereye.com/otogar/goreme/" target="_blank"><img src="assets/images/icons/teer.jpg" width="88" height="79" border="0"></a></p>
+                <hr>
+                <p>&nbsp;</p>
+                <p><script>var nu = "5312540245";</script><script language="javascript" src="http://ir.sitekodlari.com/whatsapp1.js"></script></p>
+				
+               
+                
+                <p><script language="javascript" src="http://ir.sitekodlari.com/sehirlerarasimesafehesaplama1.js"></script></p>
+			 <p>&nbsp;</p>
+                <p></p>
+                <p><script language="javascript" src="http://ir.sitekodlari.com/dovizkurlari4.js"></script></p>
+                <p>&nbsp;</p>
+                
+                <p>
+				<p>Ziyaretçi Sayımız</p>
+<div align="center"><script language="Javascript" src="http://sa.sayaclar.com/c/s4.php?a=ijsopcj&s=1a1"></script></div>
+
+</p>
+              </center></p>
+              <p></p></td>
+            </tr>
+            <tr>
+              <td colspan="2" bordercolor="#FF0000"><p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>              <p>&nbsp;</p></td>
+            </tr>
+            <tr>
+              <td height="22" colspan="4" bordercolor="#FF0000"><marquee behavior="alternate"  bgcolor="#00FFCC"">
+              Kapadokya'nın Başkenti Göreme'ye Hoş Geldiniz. Otel değil kendi evinizdesiniz :) 
+              </marquee></td>
+            </tr>
+    </table>
+  </div>
+		<!-- p2_box -->
+  </div><!-- p_generic -->
+
+	<!-- p_generic_r -->
+	<!-- p_generic_r -->
+<div class="clear"></div>
+</div><!-- ortala -->
+
+<!-- footer_bg -->
+<div class="footer_bg">
+	<!-- ortala -->
+	<div class="ortala">
+		<div class="footer">
+			<h1>Copyright © 2025</h1>
+			<a href="">Designed by <b>Seda UĞUR </b></a>
+		</div>
+	</div><!-- ortala -->
+</div><!-- footer_bg -->
+
+</body>
+</html>
